@@ -1,3 +1,68 @@
-h1 {
-  color: red;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+
+/* common style  */
+.btn {
+  background-color: #ff6559;
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h2 {
+  color: #13103a;
+  font-size: 35px;
+  text-align: center;
+}
+
+/* banner style start here  */
+.banner_title {
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+.banner_title span {
+  color: #ffad5a;
+}
+.banner-para {
+  font-size: 14px;
+  width: 500px;
+  line-height: 28px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* mission style start here  */
+
+.mission img {
+  width: 150px;
+  margin: auto;
+}
+.mission p {
+  text-align: left;
+}
+
+#card1 {
+  background-color: #edf5f6;
+  border-radius: 30px;
+  padding: 10px;
+  text-align: center;
+}
+#card2 {
+  background-color: #ffeeee;
+  margin: 0 40px;
+  border-radius: 30px;
+  padding: 10px;
+  text-align: center;
+}
+#card3 {
+  background-color: #fff4d6;
+  border-radius: 30px;
+  padding: 10px;
+  text-align: center;
 }
